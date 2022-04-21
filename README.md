@@ -9,6 +9,13 @@
     - fetch categories from internet in provider
     - pull to refresh for refresh categories with ref.refresh(futureProvider)
 
+
+3. Events
+   * worked with StreamProvider
+   - listen websocket
+   - send data to websocket
+<img src="https://raw.githubusercontent.com/demirdev/riverpod_examples/main/doc/screenshoots/events.gif" alt="Events Example" />
+
     
 
 

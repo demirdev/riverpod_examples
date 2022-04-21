@@ -32,6 +32,7 @@ dependencies:
   riverpod:
   flutter_riverpod:
   http:
+  web_socket_channel:
 
 
 
