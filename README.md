@@ -3,6 +3,14 @@
 1. Todo List
 <img src="https://raw.githubusercontent.com/demirdev/riverpod_examples/main/doc/screenshoots/todo.gif" alt="Todo Example" />
 
+2. Store Categories 
+    * worked with FutureProvider
+    - read config.json from assets directory in provider
+    - fetch categories from internet in provider
+    - pull to refresh for refresh categories with ref.refresh(futureProvider)
+
+    
+
 
 
 A new Flutter project.
