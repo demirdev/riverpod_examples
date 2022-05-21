@@ -16,6 +16,11 @@
    - send data to websocket
 <img src="https://raw.githubusercontent.com/demirdev/riverpod_examples/main/doc/screenshoots/events.gif" alt="Events Example" />
 
+
+4. Timer
+   * worked with StateNotifier and int Stream
+<img src="https://raw.githubusercontent.com/demirdev/riverpod_examples/main/doc/screenshoots/timer.gif" alt="Timer Example" />
+
     
 
 

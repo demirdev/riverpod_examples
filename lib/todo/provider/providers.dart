@@ -1,8 +1,9 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:riverpod_example_1/todo/repository/todo_isar_repository.dart';
 
 import '../model/enum/filter_type_enum.dart';
 import '../model/todo.dart';
-import '../repository/todo_list.dart';
+import '../repository/itodo_repository.dart';
 
 final searchTodoProvider = StateProvider<String>((ref) {
   return '';
@@ -12,8 +13,9 @@ final filterTypeProvider = StateProvider<FilterType>((ref) {
   return FilterType.none;
 });
 
-final todosProvider = StateNotifierProvider<TodoRepository, List<Todo>>((ref) {
-  return TodoRepository(<Todo>[]);
+final todosProvider = StateNotifierProvider<ITodoRepository, List<Todo>>((ref) {
+  // return TodoRepository(<Todo>[]);
+  return TodoIsarRepository(<Todo>[]);
 });
 
 final filteredTodoListProvider = Provider((ref) {

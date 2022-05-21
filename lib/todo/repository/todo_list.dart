@@ -1,8 +1,9 @@
 import 'package:riverpod/riverpod.dart';
 
 import '../model/todo.dart';
+import 'itodo_repository.dart';
 
-class TodoRepository extends StateNotifier<List<Todo>> {
+class TodoRepository extends ITodoRepository {
   TodoRepository(state) : super(state);
 
   final _completedTodos = <Todo>[];
@@ -39,6 +40,8 @@ class TodoRepository extends StateNotifier<List<Todo>> {
 
     state = todos;
   }
+
+  delete(Todo todo) {}
 
   int sortByDate(a, b) {
     final _firstDate = a.completedTime ?? a.createdTime;

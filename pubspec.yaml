@@ -33,6 +33,12 @@ dependencies:
   flutter_riverpod:
   http:
   web_socket_channel:
+  isar:
+  isar_flutter_libs:
+  path_provider:
+  equatable:
+
+  freezed_annotation:
 
 
 
@@ -43,6 +49,9 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  isar_generator:
+  build_runner:
+  freezed:
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

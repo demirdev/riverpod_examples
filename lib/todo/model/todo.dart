@@ -1,20 +1,34 @@
+import 'package:isar/isar.dart';
+
+part 'todo.g.dart';
+
+@Collection()
 class Todo {
+  int? id = Isar.autoIncrement;
   final String text;
   final bool isCompleted;
   final DateTime? completedTime;
-  final DateTime createdTime;
+  DateTime? createdTime;
 
   Todo(this.text,
-      {this.isCompleted = false, this.completedTime, DateTime? createdTime})
-      : this.createdTime = createdTime ?? DateTime.now();
+      {this.id,
+      this.isCompleted = false,
+      this.completedTime,
+      this.createdTime}) {
+    if (this.createdTime == null) {
+      this.createdTime = DateTime.now();
+    }
+  }
 
   Todo copyWith(
-      {String? text,
+      {int? id,
+      String? text,
       bool? isCompleted,
       DateTime? completedTime,
       DateTime? createdTime}) {
     return Todo(
       text ?? this.text,
+      id: id ?? this.id,
       isCompleted: isCompleted ?? this.isCompleted,
       completedTime: completedTime ?? this.completedTime,
       createdTime: createdTime ?? this.createdTime,
