@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:riverpod_example_1/counter/counter_home_screen.dart';
 import 'package:riverpod_example_1/events/events_home_screen.dart';
 import 'package:riverpod_example_1/store/store_home_screen.dart';
 import 'package:riverpod_example_1/timer/timer_home_screen.dart';
@@ -21,7 +22,10 @@ void main() {
     // home: TodoHomeScreen(),
 
     /// StateNotifierProvider
-    home: TimerHomeScreen(),
+    // home: TimerHomeScreen(),
+
+    /// StateNotifierProvider
+    home: CounterHomeScreen(),
 
     ///
   )));
