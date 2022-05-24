@@ -5,6 +5,7 @@ import 'package:riverpod_example_1/events/events_home_screen.dart';
 import 'package:riverpod_example_1/store/store_home_screen.dart';
 import 'package:riverpod_example_1/timer/timer_home_screen.dart';
 
+import 'infinite_list/infinite_list_home_screen.dart';
 import 'todo/todo_home_screen.dart';
 
 void main() {
@@ -25,7 +26,10 @@ void main() {
     // home: TimerHomeScreen(),
 
     /// StateNotifierProvider
-    home: CounterHomeScreen(),
+    //home: CounterHomeScreen(),
+
+    /// StateNotifierProvider
+    home: InfiniteListHomeScreen(),
 
     ///
   )));
