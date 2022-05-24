@@ -20,12 +20,17 @@
 4. Timer
    * worked with StateNotifier and int Stream
 <img src="https://raw.githubusercontent.com/demirdev/riverpod_examples/main/doc/screenshoots/timer.gif" alt="Timer Example" />
-    
-4. Counter
-   * worked with StateNotifier 
-<img src="https://raw.githubusercontent.com/demirdev/riverpod_examples/main/doc/screenshoots/counter.gif" alt="Timer Example" />
 
-    
+5. Counter
+   * worked with StateNotifier
+<img src="https://raw.githubusercontent.com/demirdev/riverpod_examples/main/doc/screenshoots/counter.gif" alt="Timer Example" />
+     
+6. Infinite List
+   * worked with StateNotifier
+   * worked with DeBouncer
+<img src="https://raw.githubusercontent.com/demirdev/riverpod_examples/main/doc/screenshoots/infinitelist.gif" alt="Timer Example" />
+
+
 
 
 
