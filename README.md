@@ -23,12 +23,12 @@
 
 5. Counter
    * worked with StateNotifier
-     <img src="https://raw.githubusercontent.com/demirdev/riverpod_examples/main/doc/screenshoots/counter.gif" alt="Timer Example" />
+<img src="https://raw.githubusercontent.com/demirdev/riverpod_examples/main/doc/screenshoots/counter.gif" alt="Timer Example" />
      
 6. Infinite List
    * worked with StateNotifier
    * worked with DeBounder
-     <img src="https://raw.githubusercontent.com/demirdev/riverpod_examples/main/doc/screenshoots/infinitelist.gif" alt="Timer Example" />
+<img src="https://raw.githubusercontent.com/demirdev/riverpod_examples/main/doc/screenshoots/infinitelist.gif" alt="Timer Example" />
 
 
 
