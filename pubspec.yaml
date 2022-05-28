@@ -40,6 +40,13 @@ dependencies:
 
   freezed_annotation:
 
+  # login
+  authentication_repository:
+    path: packages/authentication_repository
+  user_repository:
+    path: packages/user_repository
+  formz:
+
 
 
   # The following adds the Cupertino Icons font to your application.

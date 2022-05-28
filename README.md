@@ -29,7 +29,13 @@
    * worked with StateNotifier
    * worked with DeBouncer
 <img src="https://raw.githubusercontent.com/demirdev/riverpod_examples/main/doc/screenshoots/infinitelist.gif" alt="Timer Example" />
-
+     
+7. Login
+   * worked with StateNotifier
+   * worked with ref.listen for show snackbar message and navigation
+   * worked with Formz package
+   * Fake user and authentication repository 
+<img src="https://raw.githubusercontent.com/demirdev/riverpod_examples/main/doc/screenshoots/login.gif" alt="Timer Example" />
 
 
 
