@@ -2,17 +2,17 @@
 
 ## Riverpod Examples
 
-1. [Todo List](tree/main/lib/todo)
+1. [Todo List](https://github.com/demirdev/riverpod_examples/tree/main/lib/todo)
 <img src="https://raw.githubusercontent.com/demirdev/riverpod_examples/main/doc/screenshoots/todo.gif" alt="Todo Example" />
 
-2. [Store Categories](tree/main/lib/store) 
+2. [Store Categories](https://github.com/demirdev/riverpod_examples/tree/main/lib/store) 
     * worked with FutureProvider
     - read config.json from assets directory in provider
     - fetch categories from internet in provider
     - pull to refresh for refresh categories with ref.refresh(futureProvider)
 
 
-3. [Events](tree/main/lib/events)
+3. [Events](https://github.com/demirdev/riverpod_examples/tree/main/lib/events)
    * worked with StreamProvider
    - listen websocket
    - send data to websocket
