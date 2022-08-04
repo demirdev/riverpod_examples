@@ -38,7 +38,12 @@
    * worked with Formz package
    * Fake user and authentication repository 
 <img src="https://raw.githubusercontent.com/demirdev/riverpod_examples/main/doc/screenshoots/login.gif" alt="Timer Example" />
-
+     
+8. [Tabs / Bottom Navigation Bar Items with Lottie animation](https://github.com/demirdev/riverpod_examples/tree/main/lib/animated_bottom_navigation_bar).
+   * worked with StateProvider
+   * flutter_hooks
+   * Persistent state between tabs with flutter_hooks
+     <img src="https://raw.githubusercontent.com/demirdev/riverpod_examples/main/doc/screenshoots/bottom_nav_bar_with_animation.gif" alt="Tabs / Bottom Navigation Bar Items with Lottie animation" />
 
 
 
