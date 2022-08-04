@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:formz/formz.dart';
 
-import '../bloc/login.dart';
+import '../provider/login_provider.dart';
 
 class LoginFrom extends ConsumerWidget {
   const LoginFrom({Key? key}) : super(key: key);
