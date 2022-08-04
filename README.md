@@ -1,4 +1,4 @@
-# riverpod_examples
+## riverpod_examples
 
 1. Todo List
 <img src="https://raw.githubusercontent.com/demirdev/riverpod_examples/main/doc/screenshoots/todo.gif" alt="Todo Example" />
@@ -29,28 +29,20 @@
    * worked with StateNotifier
    * worked with DeBouncer
 <img src="https://raw.githubusercontent.com/demirdev/riverpod_examples/main/doc/screenshoots/infinitelist.gif" alt="Timer Example" />
-     
+
 7. Login
    * worked with StateNotifier
    * worked with ref.listen for show snackbar message and navigation
    * worked with Formz package
-   * Fake user and authentication repository 
-<img src="https://raw.githubusercontent.com/demirdev/riverpod_examples/main/doc/screenshoots/login.gif" alt="Timer Example" />
+   * Fake user and authentication repository
+     <img src="https://raw.githubusercontent.com/demirdev/riverpod_examples/main/doc/screenshoots/login.gif" alt="Timer Example" />
+     
+8. Tabs / Bottom Navigation Bar Items with Lottie animation.
+   * worked with StateProvider
+   * flutter_hooks
+   * Persistent state between tabs with flutter_hooks
+     <img src="https://raw.githubusercontent.com/demirdev/riverpod_examples/main/doc/screenshoots/bottom_nav_bar_with_animation.gif" alt="Tabs / Bottom Navigation Bar Items with Lottie animation" />
 
 
 
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

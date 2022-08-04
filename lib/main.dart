@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:riverpod_example_1/animated_bottom_navigation_bar/animated_bottom_navigation_bar_screen.dart';
 import 'package:riverpod_example_1/counter/counter_home_screen.dart';
 import 'package:riverpod_example_1/events/events_home_screen.dart';
 import 'package:riverpod_example_1/login/login_app.dart';
@@ -37,5 +38,8 @@ void main() {
   // )));
 
   /// for Login example comment out lines below
-  runApp(const ProviderScope(child: LoginMain()));
+  // runApp(const ProviderScope(child: LoginMain()));
+
+  runApp(ProviderScope(
+      child: MaterialApp(home: AnimatedBottomNavigationBarScreen())));
 }
