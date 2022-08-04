@@ -5,6 +5,11 @@ import 'package:lottie/lottie.dart';
 import 'package:riverpod_example_1/animated_bottom_navigation_bar/animated_bottom_navigation_bar_screen.dart';
 import 'package:riverpod_example_1/animated_bottom_navigation_bar/provider/active_tab_provider.dart';
 
+// Used icons from lottiefiles.com:
+// https://lottiefiles.com/90980-home
+// https://lottiefiles.com/26187-happy-star
+// https://lottiefiles.com/12476-bell
+
 class CustomLottieIcon extends HookConsumerWidget {
   final Tabs e;
   const CustomLottieIcon(
